@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\Programmer\\indie-spirit\\client-projects\\Doctor-Appointment\\api\\logs\\winston\\successes\\.340b8fe8fa9decc1692ee4ef74d27e57418125cd-audit.json",
+    "files": [
+        {
+            "date": 1690286183059,
+            "name": "D:\\Programmer\\indie-spirit\\client-projects\\Doctor-Appointment\\api\\logs\\winston\\successes\\phu-2023-25-07-17-success.log",
+            "hash": "2c0f3dd87b587b625bec70dd979ee2dc77e77f2a56ee0783c88c38f39640f466"
+        },
+        {
+            "date": 1690288247231,
+            "name": "D:\\Programmer\\indie-spirit\\client-projects\\Doctor-Appointment\\api\\logs\\winston\\successes\\phu-2023-25-07-18-success.log",
+            "hash": "d341367bc9be862eda50231a07c6cc578f8003837b4dc69c1098ef69c4aa2c19"
+        }
+    ],
+    "hashType": "sha256"
+}

@@ -1,18 +1,18 @@
 import { Server } from "http"
 import mongoose from "mongoose";
 import app from "./app";
-import config from "./config";
+import dotenv from "dotenv";
 
-
+dotenv.config();
 let server: Server;
 
 async function bootstrap() {
     try {
-        await mongoose.connect(config.database_url as string);
-        console.log("Database is Connected Sucessfully !!");
         server = app.listen(process.env.PORT, () => {
             console.log(`Application Listenting on port ${process.env.PORT}`)
         })
+        await mongoose.connect(process.env.MONGO);
+        console.log("Database is Connected Sucessfully !!");
     } catch (error) {
         console.log("Failed to connect Database!!");
     }
